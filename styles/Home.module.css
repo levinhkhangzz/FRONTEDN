@@ -1,0 +1,35 @@
+.section {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3vw;
+}
+
+.tit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.tit1 {
+    text-align: end;
+    padding-top: 400px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 80px;
+    line-height: 60px;
+}
+
+.tit2 {
+    text-align: end;
+    font-size: 18px;
+}
+
+.pic {
+    width: 50%;
+    height: 100%;
+    background: url("../public/PXL_20221203_191317471.jpg") center no-repeat;
+    background-size: cover;
+}
